@@ -1,0 +1,119 @@
+<html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumbas</title>
+    <style>
+        
+.body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.aqua{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    margin-top: 50px;
+    margin-left: 500px;
+    position: fixed;
+}
+.red{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    margin-top: 300px;
+    position: fixed;
+}
+.green{
+    border-radius: 100%;
+    height: 50px;
+    width: 100px;
+    margin: 60px;
+    position: fixed;
+    margin-left: 800px;
+    margin-top: 500px;
+}
+.purple{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 45px;
+    position: fixed;
+    margin-left: 900px;
+}
+.peru{
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    margin: 70px;
+    position: fixed;
+    margin-top: 400px;
+    margin-left: 1000px;
+}
+.black{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 175px;
+    position: fixed;
+}
+    </style>
+
+</head>
+<body>
+    <div id="body">
+<button style="background-color: aqua;" id="aqua" class="aqua" onclick="hideButton(this)"></button>
+<button style="background-color: red;" id="red" class="red" onclick="hideButton(this)"></button>
+<button style="background-color: green;" id="green" class="green" onclick="hideButton(this)"></button>
+<button style="background-color: purple;" id="purple" class="purple" onclick="hideButton(this)"></button>
+<button style="background-color: peru;" id="peru" class="peru" onclick="hideButton(this)"></button>
+<button style="background-color: black;" id="black" class="black" onclick="hideButton(this)"></button>
+
+    </div>
+
+    <script>
+const aqua = document.getElementById("aqua")
+const red = document.getElementById("red")
+const green = document.getElementById("green")
+const purple = document.getElementById("purple")
+const peru = document.getElementById("peru")
+const black = document.getElementById("black")
+const body = document.getElementById("body")
+
+function hideButton(aqua)
+ {
+  aqua.style.display = 'none';
+ }
+
+ function hideButton(red)
+ {
+  red.style.display = 'none';
+ }
+ function hideButton(green)
+ {
+  green.style.display = 'none';
+ }
+ function hideButton(purple)
+ {
+  purple.style.display = 'none';
+ }
+ function hideButton(peru)
+ {
+  peru.style.display = 'none';
+ }
+ function hideButton(black)
+ {
+  black.style.display = 'none';
+ }
+
+
+
+    </script>
+</body>
+</html></html>
